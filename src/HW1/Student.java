@@ -1,23 +1,26 @@
 package HW1;
 public class Student {
 
-    public String name;
-    public int mark;
+
+//    private static final String STUDENT_NAME = " Алина";
+    private String name;
+    private int mark;
 
     public String getName() {
-            return name;
+        return name;
     }
 
-    public void setName(String studentName) {
-            name = studentName;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public int getMark() {
-            return mark;
+        return mark;
     }
 
-    public void setMark(int studentMark) {
-            mark = studentMark;
+    public void setMark(int mark) {
+        this.mark = mark;
     }
 }
+
 
