@@ -1,8 +1,7 @@
 package HW1;
 public class Student {
 
-
-//    private static final String STUDENT_NAME = " Алина";
+    private static final String STUDENT_NAME = " Алина";
     private String name;
     private int mark;
 
