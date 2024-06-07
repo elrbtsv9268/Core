@@ -1,5 +1,6 @@
 package core.homework3;
 
+import java.util.Arrays;
 import java.util.Random;
 
 public class Runner {
@@ -40,6 +41,25 @@ public class Runner {
             cat.setAge(r);
             System.out.println("Котика зовут " + cat.getName() + " Возраст котика " + cat.getAge());
         }
+
+        Cat cat1 = new Cat();
+        cat1.setName("Мурзик");
+        cat1.setAge(random.nextInt(28) + 1);
+        Cat cat2 = new Cat();
+        cat2.setName("Васька");
+        cat2.setAge(random.nextInt(28) + 1);
+        Cat cat3 = new Cat();
+        cat3.setName("Кузя");
+        cat3.setAge(random.nextInt(28) + 1);
+        Cat cat4 = new Cat();
+        cat4.setName("Сенька");
+        cat4.setAge(random.nextInt(28) + 1);
+        Cat cat5 = new Cat();
+        cat5.setName("Маркиз");
+        cat5.setAge(random.nextInt(28) + 1);
+        Cat[] cats = {cat1, cat2, cat3, cat4, cat5};
+        System.out.println(Arrays.toString(cats));
+
     }
 }
 

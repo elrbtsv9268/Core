@@ -75,12 +75,12 @@ public class Main {
         System.out.println("num6 = " + num6);
         System.out.println(uuid);
 
-        Student student1 = new Student();
-        student1.setName("Алина");
-        System.out.println("Имя студента " + student1.getName());
-
-        student1.setMark(8);
-        System.out.println("Отметка студента " + student1.getMark());
+//        Student student1 = new Student();
+//        student1.setName("Алина");
+//        System.out.println("Имя студента " + student1.getName());
+//
+//        student1.setMark(8);
+//        System.out.println("Отметка студента " + student1.getMark());
 
 
     }
