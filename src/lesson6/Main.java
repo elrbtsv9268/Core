@@ -42,9 +42,9 @@ public class Main {
 //      Counter.printCount();
 //
         }
-        Person person = new Person("Jon", 20);
+//        Person person = new Person("Jon", 20);
 
     }
-}
+
 
 
